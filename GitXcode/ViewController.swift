@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello World again")
+        let mapViewController = MapVC()
     }
 
     override func didReceiveMemoryWarning() {
